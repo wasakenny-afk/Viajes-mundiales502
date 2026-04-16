@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Mundiales | Tu Próxima Aventura</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Viajes <span>Mundiales</span></div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <a href="#contacto" class="btn-reserva">Reservar Ahora</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Explora el Mundo con Nosotros</h1>
+            <p>Experiencias inolvidables diseñadas a tu medida.</p>
+            <div class="search-box">
+                <input type="text" placeholder="¿A dónde quieres ir?">
+                <button>Buscar</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="destinos" class="destinations">
+        <h2>Destinos Populares</h2>
+        <div class="grid-destinos">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1500835556837-99ac94a94552?auto=format&fit=crop&w=500&q=60" alt="Playa">
+                <div class="card-info">
+                    <h3>Paraísos Tropicales</h3>
+                    <p>Relájate en las mejores playas del mundo.</p>
+                    <span>Desde $499</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=500&q=60" alt="Montaña">
+                <div class="card-info">
+                    <h3>Aventura en Montaña</h3>
+                    <p>Senderismo y paisajes impresionantes.</p>
+                    <span>Desde $350</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=500&q=60" alt="Ciudad">
+                <div class="card-info">
+                    <h3>Escapadas Urbanas</h3>
+                    <p>Cultura, historia y gastronomía.</p>
+                    <span>Desde $299</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact-section">
+        <div class="contact-container">
+            <h2>¿Tienes dudas? Escríbenos</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Nombre completo" required>
+                <input type="email" placeholder="Correo electrónico" required>
+                <select>
+                    <option value="">Interés en...</option>
+                    <option value="vuelos">Vuelos</option>
+                    <option value="hoteles">Hoteles</option>
+                    <option value="tours">Tours Completos</option>
+                </select>
+                <textarea placeholder="Cuéntanos tu plan de viaje..." rows="5"></textarea>
+                <button type="submit" class="btn-enviar">Enviar Pregunta</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Viajes Mundiales - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
